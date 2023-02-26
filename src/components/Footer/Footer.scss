@@ -41,3 +41,13 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    div {
+        .logo2 {
+            img {
+                display: none;
+            }
+        }
+    }
+}

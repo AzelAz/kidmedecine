@@ -15,6 +15,9 @@ function SimpleSlider() {
 
   return (
     <div className="slider-wrapper">
+      <div className="smth">
+          <h1>Our Partners</h1>
+      </div>
       <Slider {...settings}>
         <div>
           <img src="https://deti.kg/images/partners-logo/18.jpg" alt="" />

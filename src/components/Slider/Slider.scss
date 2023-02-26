@@ -16,3 +16,78 @@
     background: white;
     text-align: center;
   }
+
+  .smth {
+    text-align: center;
+    margin-bottom: 20px;
+    h1 {
+        margin-top: 50px;
+        // display: flex;
+        // justify-content: center;
+        color: rgb(223, 173, 45);
+        font-size: 50px;
+        border-bottom: 3px solid gray;
+        border-top: 3px solid gray;
+        // width: 200px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 860px) {
+  .slider-wrapper {
+    max-width: 600px;
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 660px) {
+  .slider-wrapper {
+    max-width: 500px;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider-wrapper {
+    max-width: 400px;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .slider-wrapper {
+    max-width: 300px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .slider-wrapper {
+    max-width: 250px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .slick-slider {
+      .slick-dots {
+        bottom: -50px;
+      }
+
+    }
+  }
+}
